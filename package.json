@@ -1,0 +1,20 @@
+{
+  "name": "fit-my-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michal-worwag/fit-my-text.git"
+  },
+  "keywords": [],
+  "author": "Michał <michalwo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michal-worwag/fit-my-text/issues"
+  },
+  "homepage": "https://github.com/michal-worwag/fit-my-text#readme"
+}
