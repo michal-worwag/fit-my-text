@@ -11,7 +11,7 @@ A package that allows you to adjust the text to the width of the container. Decr
 ### Usage
 
 ```
-  import fitMyText from 'fit-my-text';
+  import fitMyText from 'fit-my-text/lib';
 
   fitMyText('elementId');
 ```
