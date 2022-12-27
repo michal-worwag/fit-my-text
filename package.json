@@ -1,7 +1,7 @@
 {
   "name": "fit-my-text",
   "version": "0.0.2",
-  "description": "",
+  "description": "A package that allows you to adjust the text to the width of the container. Decreases or increases the font size to fit the text in the container.",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/michal-worwag/fit-my-text.git"
   },
-  "keywords": [],
+  "keywords": ["fit-text", "autosize", "font-size"],
   "author": "Michał <michalwo@gmail.com>",
   "license": "ISC",
   "bugs": {
