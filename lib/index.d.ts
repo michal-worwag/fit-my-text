@@ -1,1 +1,1 @@
-export declare function multiply(a: number, b: number): number;
+export declare const fitMyText: (elementId: string) => void;
