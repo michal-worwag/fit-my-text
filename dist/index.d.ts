@@ -1,1 +1,1 @@
-export declare const fitMyText: (elementId: string) => void;
+export declare const fitMyText: (elementSelector: string, type?: string) => void;
