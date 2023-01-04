@@ -4,7 +4,7 @@ enum SelectorType {
 }
 
 export interface Options {
-  slectorType: SelectorType;
+  selectorType: SelectorType;
   min: number;
   max: number;
 }

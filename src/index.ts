@@ -1,6 +1,6 @@
 import { Options } from './types/types';
 
-export const fitMyText = (elementSelector: string, options: Options) => {
+export const fitMyText = (elementSelector: string, options?: Options) => {
   if (elementSelector) {
     const getTextWidth = (txt: string, font: string) => {
       let element: HTMLCanvasElement;
@@ -37,7 +37,7 @@ export const fitMyText = (elementSelector: string, options: Options) => {
         htmlElement.style.fontSize = `${calcFontSize}px`;
       } else htmlElement.style.fontSize = fontSize;
     };
-    if (options.slectorType === 'multiple') {
+    if (options.selectorType === 'multiple') {
       const htmlElements: NodeList = document.querySelectorAll(elementSelector);
       htmlElements.forEach((htmlElement: HTMLElement) => {
         calculateFont(htmlElement);
