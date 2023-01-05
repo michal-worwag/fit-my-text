@@ -1,1 +1,2 @@
-export declare const fitMyText: (elementSelector: string, type?: string) => void;
+import { Options } from './types/types';
+export declare const fitMyText: (elementSelector: string, { selectorType, min, max }: Options) => void;

@@ -1,4 +1,4 @@
-enum SelectorType {
+export enum SelectorType {
   Single = 'single',
   Multiple = 'multiple',
 }
