@@ -1,6 +1,6 @@
 {
   "name": "fit-my-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package that allows you to adjust the text to the width of the container. Decreases or increases the font size to fit the text in the container.",
   "main": "index.js",
   "types": "dist/index.d.ts",
