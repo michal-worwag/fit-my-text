@@ -13,12 +13,24 @@ A package that allows you to adjust the text to the width of the container. Decr
 ```
   import fitMyText from 'fit-my-text';
 
-  fitMyText(element, type);
+  fitMyText(element, options);
 ```
 
 ### Options
 
-| option  | desc                                                                         |
-| ------- | ---------------------------------------------------------------------------- |
-| element | querySelector for element (required)                                         |
-| type    | leave empty or use 'multiple' if you want to resize many elements (optional) |
+| Option       | Default | Description                                            |
+| ------------ | ------- | ------------------------------------------------------ |
+| element      |         | querySelector for element (required)                   |
+| min          | 16      | The minimum font size in pixels                        |
+| max          | 512     | The maximum font size in pixels                        |
+| selectorType | single  | Defines if you use single element or multiple elements |
+
+#### Options object
+
+```
+{
+  min: 16,
+  max: 512,
+  selectorType: 'single'
+}
+```
