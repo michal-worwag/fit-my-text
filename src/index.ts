@@ -1,8 +1,8 @@
-import { Options, SelectorType } from './types/types';
+import { Options } from './types/types';
 
-export const fitMyText = (
+const fitMyText = (
   elementSelector: string,
-  { selectorType = SelectorType.Single, min = 16, max = 512 }: Options
+  { selectorType = 'single', min = 16, max = 512 }: Options
 ) => {
   if (elementSelector) {
     const getTextWidth = (txt: string, font: string) => {
@@ -61,3 +61,5 @@ export const fitMyText = (
     }
   }
 };
+
+export default fitMyText;

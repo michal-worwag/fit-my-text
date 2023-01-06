@@ -1,10 +1,5 @@
-export enum SelectorType {
-  Single = 'single',
-  Multiple = 'multiple',
-}
-
 export interface Options {
-  selectorType: SelectorType;
+  selectorType: string;
   min: number;
   max: number;
 }

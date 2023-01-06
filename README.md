@@ -18,12 +18,12 @@ A package that allows you to adjust the text to the width of the container. Decr
 
 ### Options
 
-| Option       | Default | Description                                            |
-| ------------ | ------- | ------------------------------------------------------ |
-| element      |         | querySelector for element (required)                   |
-| min          | 16      | The minimum font size in pixels                        |
-| max          | 512     | The maximum font size in pixels                        |
-| selectorType | single  | Defines if you use single element or multiple elements |
+| Option       | Default | Description                                                                            |
+| ------------ | ------- | -------------------------------------------------------------------------------------- |
+| element      |         | querySelector for element (required)                                                   |
+| min          | 16      | The minimum font size in pixels                                                        |
+| max          | 512     | The maximum font size in pixels                                                        |
+| selectorType | single  | Defines if you use single element or multiple elements (may be 'single' or 'multiple') |
 
 #### Options object
 
