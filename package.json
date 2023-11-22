@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/michal-worwag/fit-my-text#readme",
   "devDependencies": {
-    "typescript": "^4.9.3"
+    "typescript": "^5.3.2"
   }
 }
