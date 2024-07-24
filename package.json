@@ -11,8 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/michal-worwag/fit-my-text.git"
   },
-  "keywords": ["fit-text", "autosize", "font-size", "resize-text"],
-  "author": "Michał <michalwo@gmail.com>",
+  "keywords": [
+    "fit-text",
+    "autosize",
+    "font-size",
+    "resize-text"
+  ],
+  "author": "Michał Worwąg <michalwo@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/michal-worwag/fit-my-text/issues"
